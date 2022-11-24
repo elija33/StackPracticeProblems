@@ -17,7 +17,7 @@ public class Brackets {
                 if (stack.isEmpty() || stack.pop() != '(') {
                     return false;
                 }
-            } else if (c == ')') {
+            } else if (c == '}') {
                 if (stack.isEmpty() || stack.pop() != '{') {
                     return false;
                 }
@@ -29,6 +29,9 @@ public class Brackets {
 
     public static void main(String[] args) {
         String word = "([{}])";
+        String words = "([])(){}(())()()";
         System.out.println(balancedParenthensies(word));
+        System.out.println();
+        System.out.println(balancedParenthensies(words));
     }
 }
