@@ -1,13 +1,12 @@
 package StackImplementation;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Stack {
-    ArrayList<Integer> stackwors = new ArrayList<>();
+    static ArrayList<Integer> stackwors = new ArrayList<>();
 
     // adding element into the stack
-    public void push(int number) {
+    public static void push(int number) {
         stackwors.add(number);
     }
 
@@ -31,5 +30,9 @@ public class Stack {
     // Getting the size of the stack
     public int size() {
         return stackwors.size();
+    }
+
+    public static void main(String[] args) {
+
     }
 }
