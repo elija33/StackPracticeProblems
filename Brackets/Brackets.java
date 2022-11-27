@@ -29,7 +29,7 @@ public class Brackets {
 
     public static void main(String[] args) {
         String word = "([{}])";
-        String words = "([])(){}(())()()";
+        String words = "([])(){}(())()(}";
         System.out.println(balancedParenthensies(word));
         System.out.println();
         System.out.println(balancedParenthensies(words));
