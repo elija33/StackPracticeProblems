@@ -30,6 +30,6 @@ public class sunset {
     public static void main(String[] args) {
         int buildings[] = { 3, 5, 4, 4, 3, 1, 3, 2 };
         String direction = "EAST";
-        System.out.println(sunsetLooking);
+        System.out.println();
     }
 }
