@@ -64,6 +64,7 @@ public class StackElement {
     }
 
     public static void main(String[] args) {
-
+        int number[] = { 2, 5, -3, -4, 6, 7, 2 };
+        print(number);
     }
 }
